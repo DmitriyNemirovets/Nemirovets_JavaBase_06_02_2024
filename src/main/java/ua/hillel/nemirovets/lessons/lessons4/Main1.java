@@ -11,12 +11,11 @@ public class Main1 {
         int minwarion = 9;
         int minarcher = 35;
         int minhorsman = 12;
-        double cauntwarionmin = 860 * 1.5;
+        double cauntwarionmin = cauntwarionli * 1.5;
         int generalattackmin =  (minwarion + minarcher + minhorsman) * (int) cauntwarionmin;
 
-        System.out.println(" = " + generalattackli);
-        System.out.println(cauntwarionmin);
-        System.out.println(" = "+ generalattackmin);
+        System.out.println("Generalattackli  = " + generalattackli);
+        System.out.println("Generalattackmin = " + generalattackmin);
 
     }
 }

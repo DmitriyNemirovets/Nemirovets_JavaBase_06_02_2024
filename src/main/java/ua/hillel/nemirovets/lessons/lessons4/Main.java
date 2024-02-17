@@ -113,9 +113,8 @@ public class Main {
 //        System.out.println( (int) (Math.random()*11));
 //
 //        System.out.println(Math.round(Math.random() *10));
-
-
-      //  int randomValue = Math.random();
+//
+//          int randomValue = (int) Math.random();
 
 //        System.out.println((int) (Math.random() *16 +15) );
 //        System.out.println((int) (Math.random() *16 +15) );

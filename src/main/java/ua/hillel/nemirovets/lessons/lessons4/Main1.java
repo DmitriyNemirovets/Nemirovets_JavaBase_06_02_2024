@@ -6,9 +6,9 @@ public class Main1 {
         int b = 16; // Width parallelepiped
         int c = 13; // Height parallelepiped
 
-        int Volume = a * b * c; // Formula Volume parallelepiped
-        System.out.println("Volume of a parallelepiped = " + "" + Volume );
-        int Lenght = (4 * a) + (4 * b) + (4 * c); // Formula Lenght parallelepiped
-        System.out.println("length of all sides = " + "" + Lenght);
+        int volume = a * b * c; // Formula Volume parallelepiped
+        System.out.println("Volume of a parallelepiped = " +  volume );
+        int parallepipedLenght = (4 * a) + (4 * b) + (4 * c); // Formula Lenght parallelepiped
+        System.out.println("length of all sides = " +  parallepipedLenght);
     }
 }

@@ -2,13 +2,21 @@ package ua.hillel.nemirovets.lessons.lessons4;
 
 public class Main1 {
     public static void main(String[] args) {
-        int a = 21; // Length parallelepiped
-        int b = 16; // Width parallelepiped
-        int c = 13; // Height parallelepiped
+        int liwarion = 13;
+        int liarcher = 24;
+        int lihorsman  = 46;
+        int cauntwarionli = 860;
+        int generalattackli = (liwarion + liarcher + lihorsman) * cauntwarionli;
 
-        int volume = a * b * c; // Formula Volume parallelepiped
-        System.out.println("Volume of a parallelepiped = " +  volume );
-        int parallepipedLenght = (4 * a) + (4 * b) + (4 * c); // Formula Lenght parallelepiped
-        System.out.println("length of all sides = " +  parallepipedLenght);
+        int minwarion = 9;
+        int minarcher = 35;
+        int minhorsman = 12;
+        double cauntwarionmin = 860 * 1.5;
+        int generalattackmin =  (minwarion + minarcher + minhorsman) * (int) cauntwarionmin;
+
+        System.out.println(" = " + generalattackli);
+        System.out.println(cauntwarionmin);
+        System.out.println(" = "+ generalattackmin);
+
     }
 }

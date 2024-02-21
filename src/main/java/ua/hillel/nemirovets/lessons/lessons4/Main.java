@@ -16,15 +16,8 @@ public class Main {
 //        System.out.println(10D / 3);
 //        System.out.println((double)b / a);
 
-
-
-
 //        System.out.println( 8 % 3);  // 2*3 = 6. 8-6=2
 //        System.out.println(9%4); //2*4=8  9-8=1
-
-
-
-
 
 
 //        System.out.println(10 % 1);
@@ -128,10 +121,10 @@ public class Main {
 //        System.out.println((int) (Math.random() *16 +15) );
 
 
-        int min =  25;
-        int max = 50;
-        int result  = (int) (Math.random()* (max-min +1) +min);
-        System.out.println(result);
+//        int min =  25;
+//        int max = 50;
+//        int result  = (int) (Math.random()* (max-min +1) +min);
+//        System.out.println(result);
 
 
 

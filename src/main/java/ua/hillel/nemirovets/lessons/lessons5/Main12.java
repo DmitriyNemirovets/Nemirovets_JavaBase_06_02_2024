@@ -115,7 +115,7 @@ public class Main12 {
 
 
         if(arithmeticAverageTeam1 > arithmaticAverageTeam2){
-        System.out.println(" Winner Team 1" + " " +  team1Name + "=" +" " + arithmeticAverageTeam1 + " " + "points" );
+        System.out.println("Winner Team 1 " +   team1Name + "=" +" " + arithmeticAverageTeam1 + " " + "points" );
         }else if(arithmeticAverageTeam1 < arithmaticAverageTeam2){
             System.out.println("Winner Team 2" + " " + team2Name + "=" + " " + arithmaticAverageTeam2 + " " + "points" );
         }else{

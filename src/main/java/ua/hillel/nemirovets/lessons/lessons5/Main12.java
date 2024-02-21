@@ -103,9 +103,9 @@ public class Main12 {
         }
         scanner.nextLine();
 
-        int arithmeticAverageTeam1 = (team1User1Int + team1User2Int + team1User3Int + team1User4Int + team1User5Int)/5;
+        double arithmeticAverageTeam1 = (team1User1Int + team1User2Int + team1User3Int + team1User4Int + team1User5Int)/5;
         System.out.println();
-        int arithmaticAverageTeam2 = (team2User1Int + team2User2Int + team2User3Int + team2User4Int + team2User5Int)/5;
+        double arithmaticAverageTeam2 = (team2User1Int + team2User2Int + team2User3Int + team2User4Int + team2User5Int)/5;
 
         System.out.println("Arithmetic average  " + team1Name + " = " + arithmeticAverageTeam1);
         System.out.println("Arithmetic average  " + team2Name + " = " + arithmaticAverageTeam2);
@@ -113,16 +113,13 @@ public class Main12 {
         System.out.println();
         System.out.println();
 
-        boolean resultteam = ((int)arithmeticAverageTeam1 > arithmaticAverageTeam2);
+
         if(arithmeticAverageTeam1 > arithmaticAverageTeam2){
-            System.out.println(" Team 1" + " " +  team1Name + "=" +" " + arithmeticAverageTeam1 );
+        System.out.println(" Winner Team 1" + " " +  team1Name + "=" +" " + arithmeticAverageTeam1 + " " + "points" );
         }else if(arithmeticAverageTeam1 < arithmaticAverageTeam2){
-            System.out.println(" Team 2" + " " + team2Name + "=" + " " + arithmaticAverageTeam2 );
+            System.out.println("Winner Team 2" + " " + team2Name + "=" + " " + arithmaticAverageTeam2 + " " + "points" );
         }else{
             System.out.println("Team1 == Team2");
         }
-        System.out.println("Winner" +  resultteam + "points" );
     }
-
-
 }

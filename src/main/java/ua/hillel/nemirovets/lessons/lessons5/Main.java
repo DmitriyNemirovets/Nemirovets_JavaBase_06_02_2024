@@ -232,15 +232,15 @@ public class Main {
 
         System.out.println("Please enter some integer");
 
-        int userValueInt = 0;
-        if (scanner.hasNextInt()) {
-            userValueInt = scanner.nextInt();
-            System.out.println(userValueInt);
-        } else {
-            System.out.println("Wrong data. Restart app");
-            System.exit(0);
-        }
-        System.out.println(userValueInt);
+//        int userValueInt = 0;
+//        if (scanner.hasNextInt()) {
+//            userValueInt = scanner.nextInt();
+//            System.out.println(userValueInt);
+//        } else {
+//            System.out.println("Wrong data. Restart app");
+//            System.exit(0);
+//        }
+//        System.out.println(userValueInt);
     }
 
 }

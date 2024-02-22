@@ -66,8 +66,8 @@ public class Main {
 //        System.out.println("x = " + x); // 8
 
 
-        int a = 10;
-        int b = 10;
+//        int a = 10;
+//        int b = 10;
 
 
 //        if (a < b) {
@@ -119,7 +119,7 @@ public class Main {
 //            System.out.println("a < b");
 //        }
 
-        a = 11;
+//        a = 11;
 
         // BAD VERSION
 //        if (a == b)
@@ -127,7 +127,7 @@ public class Main {
 //            System.out.println("a = b");
 //            System.out.println("a = b");
 
-        a = 11;
+//        a = 11;
 
 //        switch (a) {
 //            case 1 : {
@@ -196,7 +196,7 @@ public class Main {
 //        }
 
 
-        Scanner scanner = new Scanner(System.in);
+//        Scanner scanner = new Scanner(System.in);
 
 //        System.out.println("Please enter some string");
 //
@@ -230,7 +230,7 @@ public class Main {
 //        System.out.println("user value = " + strUserValue);
 
 
-        System.out.println("Please enter some integer");
+//        System.out.println("Please enter some integer");
 
 //        int userValueInt = 0;
 //        if (scanner.hasNextInt()) {

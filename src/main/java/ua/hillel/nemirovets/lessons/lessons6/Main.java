@@ -108,39 +108,57 @@ public class Main {
 //        }
 
         Scanner scanner = new Scanner(System.in);
-//        int userValue = 0;
-//        while (true){
-//            System.out.println("Please enter integer from 10 to 20");
-//            if (scanner.hasNextInt()) {
-//                userValue = scanner.nextInt();
-//                 if (userValue >=10 && userValue <= 20){
-//                     break;
-//                 }else {
-//                     System.out.println("From 10 to 20!!!");
-//                     scanner.nextLine();
-//                 }
-//            }else{
-//                System.out.println("Wrong data, try again!");
-//                scanner.nextLine();
-//            }
-//        }
-//        System.out.println("userValue = " + userValue);
-
-        int integer  = 10;
+        int userValue = 0;
         while (true){
-            System.out.println(integer);
-            int random = (int) (Math.random() * 101);
-            if (random>=85 && random <=100) {
-                System.out.println("Win!!!!!!!");
-                break;
-            }
-            System.out.println(integer);
-            integer -= 1;
-            if (integer == - 1){
-                System.out.println("Boom!!!");
-                break;
+            System.out.println("Please enter integer from 10 to 20");
+            if (scanner.hasNextInt()) {
+                userValue = scanner.nextInt();
+                 if (userValue >=10 && userValue <= 20){
+                     break;
+                 }else {
+                     System.out.println("From 10 to 20!!!");
+                     scanner.nextLine();
+                 }
+            }else{
+                System.out.println("Wrong data, try again!");
+                scanner.nextLine();
             }
         }
+        System.out.println("userValue = " + userValue);
+
+//        int integer  = 10;
+//        while (true){
+//            System.out.println(integer);
+//            int random = (int) (Math.random() * 101);
+//            if (random>=85 && random <=100) {
+//                System.out.println("Win!!!!!!!");
+//                break;
+//            }
+//            System.out.println(integer);
+//            integer -= 1;
+//            if (integer == - 1){
+//                System.out.println("Boom!!!");
+//                break;
+//            }
+//        }
+//
+//        int integer = 10;
+//
+//        while (true) {
+//            System.out.println(integer);
+//            int random = (int) (Math.random() * 101); // 0 - 100
+//            if (random >= 85 && random <= 100) {
+//                System.out.println("WIN!!!!!!!!!!");
+//                break;
+//            }
+//            integer -= 1;
+////            integer--;
+//            if (integer == -1) {
+//                System.out.println("BOOOM!!!");
+//                break;
+//            }
+//        }
+
 
 
 

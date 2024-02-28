@@ -16,15 +16,13 @@ public class Demo1 {
         int maxAge = 40;
 
         for (int i = 0; i < team1.length; i++) {
-
-            int rezultTeam1Old = (int) Math.floor(Math.random() * (maxAge - minAge + 1) + minAge);
-            team1[i] = (rezultTeam1Old + 1);
+            int resultTeam1Age = (int) Math.floor(Math.random() * (maxAge - minAge + 1) + minAge);
+            team1[i] = resultTeam1Age;
             sumTeam1 += team1[i];
         }
         for (int i = 0; i < team2.length; i++) {
-
-            int rezultTeam2Old = (int) Math.floor(Math.random() * (maxAge - minAge + 1) + minAge);
-            team2[i] = (rezultTeam2Old + 1);
+            int resultTeam2Age = (int) Math.floor(Math.random() * (maxAge - minAge + 1) + minAge);
+            team2[i] = resultTeam2Age;
             sumTeam2 += team2[i];
         }
         System.out.println(Arrays.toString(team1));

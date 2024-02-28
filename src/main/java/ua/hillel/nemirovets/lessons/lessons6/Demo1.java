@@ -31,10 +31,11 @@ public class Demo1 {
             } else {
                 System.out.println("Wrong data. The number must be between 0 and 10");
             }
+
             scanner.nextLine();
             System.out.println("Number of attempts left = " + (counter - i));
 
-        }
 
+        }
     }
 }

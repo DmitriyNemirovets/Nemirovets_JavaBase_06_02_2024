@@ -10,21 +10,20 @@ public class Demo1 {
         int[] team2 = new int[25];
 
         double sumTeam1 = 0.0;
-        double sumTeam2 = 0D;
+        double sumTeam2 = 0.0;
+
+        int minAge = 18;
+        int maxAge = 40;
 
         for (int i = 0; i < team1.length; i++) {
-            int minOld = 18;
-            int maxOld = 40;
-            maxOld -= minOld;
-            int rezultTeam1Old = (int) (Math.random() * ++maxOld) + minOld;
+
+            int rezultTeam1Old = (int) Math.floor(Math.random() * (maxAge - minAge + 1) + minAge);
             team1[i] = (rezultTeam1Old + 1);
             sumTeam1 += team1[i];
         }
         for (int i = 0; i < team2.length; i++) {
-            int minOld = 18;
-            int maxOld = 40;
-            maxOld -= minOld;
-            int rezultTeam2Old = (int) (Math.random() * ++maxOld) + minOld;
+
+            int rezultTeam2Old = (int) Math.floor(Math.random() * (maxAge - minAge + 1) + minAge);
             team2[i] = (rezultTeam2Old + 1);
             sumTeam2 += team2[i];
         }

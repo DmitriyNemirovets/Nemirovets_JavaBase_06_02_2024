@@ -1,7 +1,5 @@
 package ua.hillel.nemirovets.lessons.lessons8;
 
-import com.sun.source.tree.BinaryTree;
-
 import java.util.Arrays;
 
 public class Demo {
@@ -37,5 +35,15 @@ public class Demo {
         }
         System.out.println(Arrays.toString(lottery));
         System.out.println(Arrays.toString(player));
+
+        int matches = 0;
+        for (int i = 0; i < lottery.length; i++) {
+            if (lottery[i] == player[i]) {
+                System.out.println("Same values " + lottery[i] + " index = " + i);
+                matches++;
+            }
+        }
+
+        System.out.println("Number of matches = " + matches);
     }
 }

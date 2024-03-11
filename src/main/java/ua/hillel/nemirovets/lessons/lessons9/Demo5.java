@@ -8,15 +8,15 @@ public class Demo5 {
         System.out.println("Enter Value");
         int sum = 0;
         while (sum <= 1000) {
-            if(scanner.hasNextInt()){
+            if (scanner.hasNextInt()) {
                 System.out.println("Enter Value : ");
                 int temp = scanner.nextInt();
-                if(temp >= 0 && temp <= 100){
+                if (temp >= 0 && temp <= 100) {
                     sum += temp;
-                }else{
+                } else {
                     System.out.println("Enter Value 0 to 100");
                 }
-            }else{
+            } else {
                 System.out.println("Wrong Data. Enter Value");
             }
             scanner.nextLine();
@@ -24,6 +24,6 @@ public class Demo5 {
         System.out.println("Sum Value > 1000 ");
         System.out.println("Sum Value = " + sum);
 
-        }
     }
+}
 

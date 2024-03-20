@@ -1,27 +1,31 @@
 package ua.hillel.nemirovets.lessons.lessons_12.fitness;
+
 import java.util.Calendar;
 
-class FitnessTrackerUser {
-     private final String name;
-     private final int birthDay;
-     private final int birthMonth;
-     private final int birthYear;
-     private final String email;
-     private final String phone;
-     private String surname;
-     private double weight;
-     private String bloodPressure;
-     private int stepsPerDay;
-     private final int age;
+public class FitnessTrackerUser {
+    private final String name;
+    private final int birthDay;
+    private final int birthMonth;
+    private final int birthYear;
+    private final String email;
+    private final String phone;
+    private String surname;
+    private double weight;
+    private String bloodPressure;
+    private int stepsPerDay;
+    private final int age;
 
-    public FitnessTrackerUser(String name, int birthDay, int birthMonth, int birthYear, String email, String phone) {
+    public FitnessTrackerUser(String name, int birthDay, int birthMonth, int birthYear, String email, String phone, String surname, double weight, String bloodPressure, int stepsPerDay) {
         this.name = name;
         this.birthDay = birthDay;
         this.birthMonth = birthMonth;
         this.birthYear = birthYear;
         this.email = email;
         this.phone = phone;
-
+        this.surname = surname;
+        this.weight = weight;
+        this.bloodPressure = bloodPressure;
+        this.stepsPerDay = stepsPerDay;
 
         int currentYear = Calendar.getInstance().get(Calendar.YEAR);
         this.age = currentYear - birthYear;
@@ -95,6 +99,5 @@ class FitnessTrackerUser {
         System.out.println("Steps per Day: " + stepsPerDay);
         System.out.println();
     }
-
 
 }

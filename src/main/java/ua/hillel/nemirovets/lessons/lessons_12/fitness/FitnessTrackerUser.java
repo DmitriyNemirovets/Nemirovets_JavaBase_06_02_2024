@@ -15,6 +15,8 @@ public class FitnessTrackerUser {
     private int stepsPerDay;
     private final int age;
 
+    private final int currentYear = 2024;
+
     public FitnessTrackerUser(String name, int birthDay, int birthMonth, int birthYear, String email, String phone, String surname, double weight, String bloodPressure, int stepsPerDay) {
         this.name = name;
         this.birthDay = birthDay;
@@ -27,7 +29,7 @@ public class FitnessTrackerUser {
         this.bloodPressure = bloodPressure;
         this.stepsPerDay = stepsPerDay;
 
-        int currentYear = Calendar.getInstance().get(Calendar.YEAR);
+//      int currentYear = Calendar.getInstance().get(Calendar.YEAR);
         this.age = currentYear - birthYear;
     }
 

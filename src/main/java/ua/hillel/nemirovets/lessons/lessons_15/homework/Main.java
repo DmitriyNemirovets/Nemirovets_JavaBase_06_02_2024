@@ -10,7 +10,7 @@ public class Main {
         double totalCost = 0.0;
 
         while (true) {
-            System.out.println("Оберіть напій (1 - Coffee, 2 - Tea, 3 - Lemonade, 4 - Mojito, 5 - Mineral Water, 6 - Coca Cola, 0 - Завершити): ");
+            System.out.println("Choose a drink  (1 - Coffee, 2 - Tea, 3 - Lemonade, 4 - Mojito, 5 - Mineral Water, 6 - Coca Cola, 0 - to complete): ");
             int choice = scanner.nextInt();
 
             if (choice == 0) {
@@ -49,36 +49,36 @@ public class Main {
                     totalCost += Drinks.COCA_COLA_PRICE;
                     break;
                 default:
-                    System.out.println("Недійсний вибір");
+                    System.out.println("Invalid selection");
                     break;
             }
-            System.out.println("Загальна кількість напоїв: " + totalDrinks);
-            System.out.println("Загальна сума до сплати: $" + totalCost);
+            System.out.println("Total number of drinks: " + totalDrinks);
+            System.out.println("Total amount due: $" + totalCost);
         }
         scanner.close();
     }
 
     public static void makeCoffee() {
-        System.out.println("Готуємо каву...");
+        System.out.println("We are making coffee...");
     }
 
     public static void makeTea() {
-        System.out.println("Готуємо чай...");
+        System.out.println("We are making tea...");
     }
 
     public static void makeLemonade() {
-        System.out.println("Готуємо лимонад...");
+        System.out.println("We are making Lemonade...");
     }
 
     public static void makeMojito() {
-        System.out.println("Готуємо мохіто...");
+        System.out.println("We are making Moxito...");
     }
 
     public static void makeMineralWater() {
-        System.out.println("Готуємо мінеральну воду...");
+        System.out.println("We are making Mineral_Woter...");
     }
 
     public static void makeCocaCola() {
-        System.out.println("Готуємо кока-колу...");
+        System.out.println("We are making Coca_Cola...");
     }
 }

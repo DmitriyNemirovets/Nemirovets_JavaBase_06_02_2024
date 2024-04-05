@@ -59,29 +59,3 @@ public class Main {
         scanner.close();
     }
 }
-
-
-//    public static void makeCoffee() {
-//        System.out.println("We are making coffee...");
-//    }
-//
-//    public static void makeTea() {
-//        System.out.println("We are making tea...");
-//    }
-//
-//    public static void makeLemonade() {
-//        System.out.println("We are making Lemonade...");
-//    }
-//
-//    public static void makeMojito() {
-//        System.out.println("We are making Moxito...");
-//    }
-//
-//    public static void makeMineralWater() {
-//        System.out.println("We are making Mineral_Woter...");
-//    }
-//
-//    public static void makeCocaCola() {
-//        System.out.println("We are making Coca_Cola...");
-//    }
-//}

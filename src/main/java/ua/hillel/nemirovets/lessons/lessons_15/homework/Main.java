@@ -19,32 +19,32 @@ public class Main {
 
             switch (choice) {
                 case 1:
-                    makeCoffee();
+                    Drinks.makeDrink(DrinksMachine.COFFEE);
                     totalDrinks++;
                     totalCost += Drinks.COFFEE_PRICE;
                     break;
                 case 2:
-                    makeTea();
+                    Drinks.makeDrink(DrinksMachine.TEA);
                     totalDrinks++;
                     totalCost += Drinks.TEA_PRICE;
                     break;
                 case 3:
-                    makeLemonade();
+                    Drinks.makeDrink(DrinksMachine.LEMONADE);
                     totalDrinks++;
                     totalCost += Drinks.LEMONADE_PRICE;
                     break;
                 case 4:
-                    makeMojito();
+                    Drinks.makeDrink(DrinksMachine.MOJITO);
                     totalDrinks++;
                     totalCost += Drinks.MOJITO_PRICE;
                     break;
                 case 5:
-                    makeMineralWater();
+                    Drinks.makeDrink(DrinksMachine.MINERAL_WATER);
                     totalDrinks++;
                     totalCost += Drinks.MINERAL_WATER_PRICE;
                     break;
                 case 6:
-                    makeCocaCola();
+                    Drinks.makeDrink(DrinksMachine.COCA_COLA);
                     totalDrinks++;
                     totalCost += Drinks.COCA_COLA_PRICE;
                     break;
@@ -52,33 +52,36 @@ public class Main {
                     System.out.println("Invalid selection");
                     break;
             }
+
             System.out.println("Total number of drinks: " + totalDrinks);
             System.out.println("Total amount due: $" + totalCost);
         }
         scanner.close();
     }
-
-    public static void makeCoffee() {
-        System.out.println("We are making coffee...");
-    }
-
-    public static void makeTea() {
-        System.out.println("We are making tea...");
-    }
-
-    public static void makeLemonade() {
-        System.out.println("We are making Lemonade...");
-    }
-
-    public static void makeMojito() {
-        System.out.println("We are making Moxito...");
-    }
-
-    public static void makeMineralWater() {
-        System.out.println("We are making Mineral_Woter...");
-    }
-
-    public static void makeCocaCola() {
-        System.out.println("We are making Coca_Cola...");
-    }
 }
+
+
+//    public static void makeCoffee() {
+//        System.out.println("We are making coffee...");
+//    }
+//
+//    public static void makeTea() {
+//        System.out.println("We are making tea...");
+//    }
+//
+//    public static void makeLemonade() {
+//        System.out.println("We are making Lemonade...");
+//    }
+//
+//    public static void makeMojito() {
+//        System.out.println("We are making Moxito...");
+//    }
+//
+//    public static void makeMineralWater() {
+//        System.out.println("We are making Mineral_Woter...");
+//    }
+//
+//    public static void makeCocaCola() {
+//        System.out.println("We are making Coca_Cola...");
+//    }
+//}

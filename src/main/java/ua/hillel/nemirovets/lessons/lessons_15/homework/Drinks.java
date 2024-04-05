@@ -7,4 +7,8 @@ public class Drinks {
     public static final double MOJITO_PRICE = 4.50;
     public static final double MINERAL_WATER_PRICE = 1.50;
     public static final double COCA_COLA_PRICE = 2.00;
+
+    public static void makeDrink(DrinksMachine drinkMachine) {
+        System.out.println("We are cooking " + drinkMachine.toString().toLowerCase() + "...");
+    }
 }

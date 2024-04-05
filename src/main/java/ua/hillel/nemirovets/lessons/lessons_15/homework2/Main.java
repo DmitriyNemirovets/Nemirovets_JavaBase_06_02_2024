@@ -11,7 +11,7 @@ public class Main {
         double totalCost = 0.0;
 
         while (true) {
-            System.out.println("Choose a drink  (1 - Coffee, 2 - Tea, 3 - Lemonade, 4 - Mojito, 5 - Mineral Water, 6 - Coca Cola, 0 - to complete): ");
+            System.out.println("CHOOSE A DRINK :\n Coffee,\n Tea,\n Lemonade,\n Mojito,\n Mineral Water,\n Coca Cola,\n exit to complete ");
             String choice = scanner.nextLine();
 
 

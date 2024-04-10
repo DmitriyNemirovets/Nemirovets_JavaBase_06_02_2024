@@ -1,55 +1,33 @@
 package ua.hillel.nemirovets.lessons.lessons_16;
+
 import java.util.Scanner;
 
 public class MatrixCalculator {
-    private int rows;
-    private int cols;
-    private double[][] matrix;
 
-    public MatrixCalculator() {
-        this.rows = rows;
-        this.cols = cols;
-        this.matrix = new double[rows][cols];
-    }
 
-    public void createMatrix() {
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter matrix elements:");
-        for (int i = 0; i < rows; i++) {
-            for (int j = 0; j < cols; j++) {
-                System.out.print("Enter element at position (" + (i + 1) + "," + (j + 1) + "): ");
-                matrix[i][j] = scanner.nextDouble();
-            }
+    public static double calculateAverage(double[] array) {
+        if (array == null || array.length == 0) {
+            System.out.println("Array is empty. Cannot calculate average.");
+            return 0.0;
         }
-    }
-
-    public double calculateAverage() {
-        double total = 0;
-        for (int i = 0; i < rows; i++) {
-            for (int j = 0; j < cols; j++) {
-                total += matrix[i][j];
-            }
+        double total = 0.0;
+        for (double num : array) {
+            total += num;
         }
-        return total / (rows * cols);
+        return total / array.length;
     }
 
-    public double calculateAverage(double[][] inputMatrix) {
+    public static boolean isSquareMatrix(double[][] inputMatrix) {
+        if (inputMatrix == null || inputMatrix.length == 0 ) return false;
         int rows = inputMatrix.length;
-        int cols = inputMatrix[0].length;
-        double total = 0;
+
         for (int i = 0; i < rows; i++) {
-            for (int j = 0; j < cols; j++) {
-                total += inputMatrix[i][j];
+            if (inputMatrix[i].length != rows) {
+                return false;
             }
         }
-        return total / (rows * cols);
+        return true;
     }
-    public boolean isSquareMatrix(double[][] inputMatrix) {
-        int rows = inputMatrix.length;
-        int cols = inputMatrix[0].length;
-        return rows == cols;
-    }
-
 
 }
 
